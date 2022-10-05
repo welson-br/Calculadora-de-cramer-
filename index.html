@@ -3,10 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Matriz de Cramer</h1>
+    <button onclick="abrirModal('modal3')">Abrir</button>
+
+    <div id="modal2">
+      <div class="container">
+        <span onclick="fecharModal('modal2')"> x </span>
+        <h1>Informe os valores</h1>
+        <table>
+            <tr>
+              <td><input type="text" id="m2_1" /></td>
+              <td><input type="text" id="m2_2" /></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="m2_3" /></td>
+              <td><input type="text" id="m2_4" /></td>
+            </tr>
+          </table>
+          <button onclick="lerValoresModal2()">Calcular</button>
+        </div>
+      </div>
+      
+      <div id="modal3">
+        <div class="container">
+          <span onclick="fecharModal('modal3')"> x </span>
+          <h1>Informe os valores</h1>
+          <table>
+              <tr>
+                <td><input type="text" id="m2_1" /></td>
+                <td><input type="text" id="m2_2" /></td>
+                <td><input type="text" id="m2_3" /></td>
+                <td><input type="text" id="m2_4" /></td>
+                <td><input type="text" id="m2_5" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" id="m2_6" /></td>
+                <td><input type="text" id="m2_7" /></td>
+                <td><input type="text" id="m2_8" /></td>
+                <td><input type="text" id="m2_9" /></td>
+                <td><input type="text" id="m2_10" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" id="m2_11" /></td>
+                <td><input type="text" id="m2_12" /></td>
+                <td><input type="text" id="m2_13" /></td>
+                <td><input type="text" id="m2_14" /></td>
+                <td><input type="text" id="m2_15" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" id="m2_16" /></td>
+                <td><input type="text" id="m2_17" /></td>
+                <td><input type="text" id="m2_18" /></td>
+                <td><input type="text" id="m2_19" /></td>
+                <td><input type="text" id="m2_20" /></td>
+              </tr>
+            </table>
+            <button onclick="lerValoresModal2()">Calcular</button>
+          </div>
+        </div>
+
+        <div id="modal4">
+            <div class="container">
+              <span onclick="fecharModal('modal4')"> x </span>
+              <h1>Informe os valores</h1>
+              <table>
+                  <tr>
+                    <td><input type="text" id="m2_1" /></td>
+                    <td><input type="text" id="m2_2" /></td>
+                    <td><input type="text" id="m2_3" /></td>
+                    <td><input type="text" id="m2_4" /></td>
+                    <td><input type="text" id="m2_5" /></td>
+                    <td><input type="text" id="m2_6" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" id="m2_7" /></td>
+                    <td><input type="text" id="m2_8" /></td>
+                    <td><input type="text" id="m2_9" /></td>
+                    <td><input type="text" id="m2_10" /></td>
+                    <td><input type="text" id="m2_11" /></td>
+                    <td><input type="text" id="m2_12" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" id="m2_11" /></td>
+                    <td><input type="text" id="m2_12" /></td>
+                    <td><input type="text" id="m2_13" /></td>
+                    <td><input type="text" id="m2_14" /></td>
+                    <td><input type="text" id="m2_15" /></td>
+                    <td><input type="text" id="m2_16" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" id="m2_17" /></td>
+                    <td><input type="text" id="m2_18" /></td>
+                    <td><input type="text" id="m2_19" /></td>
+                    <td><input type="text" id="m2_20" /></td>
+                    <td><input type="text" id="m2_21" /></td>
+                    <td><input type="text" id="m2_22" /></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" id="m2_23" /></td>
+                    <td><input type="text" id="m2_24" /></td>
+                    <td><input type="text" id="m2_25" /></td>
+                    <td><input type="text" id="m2_26" /></td>
+                    <td><input type="text" id="m2_27" /></td>
+                    <td><input type="text" id="m2_28" /></td>
+                  </tr>
+                </table>
+                <button onclick="lerValoresModal2()">Calcular</button>
+              </div>
+            </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
